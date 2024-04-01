@@ -6,6 +6,8 @@ class Control:
         self.view = view
         self.connectSignals()
 
+    def calculate(self):
+        pass
     
     def connectSignals(self):
         self.view.btn1.clicked.connect(self.view.activateMessage)
