@@ -1,4 +1,4 @@
-# ch 5.2.1 ctrl.py
+# ch 6.4.4 ctrl.py
 
 class Control:
 
@@ -14,4 +14,8 @@ class Control:
         self.view.btn2.clicked.connect(self.view.clearMessage)
 
     def sum(self, a, b):
-        return a + b
+        try:
+            return a + b
+        
+        except:
+            return "Calculation Error"
