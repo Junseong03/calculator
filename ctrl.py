@@ -1,4 +1,4 @@
-# ch 6.4.4 ctrl.py
+# ch 7.1.3 ctrl.py
 
 class Control:
 
@@ -25,3 +25,16 @@ class Control:
         
         except:
             return "Calculation Error"
+        
+    def sub(self, a, b):
+        return a-b
+    
+
+    def mul(self, a, b):
+        return a * b
+    
+    def div(slef, a, b):
+        return a / b
+    
+    def pow(self, a, b):
+        return pow(a, b)
